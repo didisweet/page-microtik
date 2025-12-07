@@ -1,0 +1,109 @@
+
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.arriere_plan{
+background-image: url('klara-kulikova-S88f306e75k-unsplash.jpg');
+}
+main{
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+.a{
+    text-decoration: none;
+}
+.recherche{
+    margin: 10px;
+    padding: 5px;
+    background: white;
+    text-align: center;
+    background-image: url('klara-kulikova-S88f306e75k-unsplash.jpg');
+    display: block;
+
+}
+.recherche:hover{
+    transform: scale(1.2);
+    background-image: url('klara-kulikova-S88f306e75k-unsplash.jpg') ;
+    transition: .3s;
+    display: block;
+}
+p{
+    color: white;
+    text-decoration: none;
+    background-image: url('klara-kulikova-S88f306e75k-unsplash.jpg');
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+p:hover{
+    background: rgb(117, 117, 117) ;
+    transition: .3s;
+}
+
+td{
+    color: white;
+    border: 3px solid ;
+   margin: 1000px;
+    padding: 10px 100px;
+    
+    text-align: center;
+
+}
+th{
+    color: white;
+   
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption{
+    color: white;
+}
+tr{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+.grille{
+     margin-left: 200px;
+     margin-top: 50px;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1200px){
+td{
+color: rgb(235, 175, 175);
+}
+}
+@media screen and (max-width:960px) {
+    .contact{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:960px){
+.grille{
+    flex-direction: column;
+}
+}
+@media screen and (max-width:960px){
+.recherche{
+    flex-direction: column;
+}
+}
+
+
+
